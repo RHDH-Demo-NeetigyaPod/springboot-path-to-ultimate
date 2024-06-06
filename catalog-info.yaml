@@ -1,0 +1,15 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: springboot-path-to-ultimate
+  description: Trying the CI pipeline along with issues
+  annotations:
+    backstage.io/kubernetes-id: springboot-path-to-ultimate
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: RHDH-Demo-NeetigyaPod/springboot-path-to-ultimate
+spec:
+  type: api
+  system: localhost
+  lifecycle: production
+  owner: NeetigyaPod

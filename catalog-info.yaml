@@ -8,6 +8,7 @@ metadata:
     backstage.io/kubernetes-id: springboot-path-to-ultimate
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: RHDH-Demo-NeetigyaPod/springboot-path-to-ultimate
+    jenkins.io/job-full-name: [github-organization-project-name/job-name]
 spec:
   type: api
   system: localhost

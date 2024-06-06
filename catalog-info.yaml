@@ -4,12 +4,15 @@ kind: Component
 metadata:
   name: springboot-path-to-ultimate
   description: Trying the CI pipeline along with issues
+  labels:
+    backstage.io/kubernetes-id: springboot-path-to-ultimate
   annotations:
     backstage.io/kubernetes-id: springboot-path-to-ultimate
+    backstage.io/kubernetes-namespace: neetigya-amadeus-dev
+    backstage.io/kubernetes-label-selector: 'app=my-app,component=front-end'
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: RHDH-Demo-NeetigyaPod/springboot-path-to-ultimate
     jenkins.io/job-full-name: "RHDH-Demo-NeetigyaPod/springboot-path-to-ultimate"
-    backstage.io/kubernetes-id: springboot-path-to-ultimate
 spec:
   type: api
   system: localhost

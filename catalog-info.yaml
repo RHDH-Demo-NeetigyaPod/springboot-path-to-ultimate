@@ -4,8 +4,6 @@ kind: Component
 metadata:
   name: springboot-path-to-ultimate
   description: Trying the CI pipeline along with issues
-  labels:
-    backstage.io/kubernetes-id: springboot-path-to-ultimate
   annotations:
     backstage.io/kubernetes-id: springboot-path-to-ultimate
     backstage.io/kubernetes-namespace: neetigya-amadeus-dev

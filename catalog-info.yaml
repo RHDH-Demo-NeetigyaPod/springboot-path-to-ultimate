@@ -10,7 +10,7 @@ metadata:
     backstage.io/kubernetes-label-selector: 'app=my-app,component=front-end'
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: RHDH-Demo-NeetigyaPod/springboot-path-to-ultimate
-    jenkins.io/job-full-name: "rhdh"
+    jenkins.io/job-full-name: "neetigya-amadeus-dev/my-pipeline"
 spec:
   type: api
   system: localhost

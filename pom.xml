@@ -8,7 +8,7 @@
 		<version>2.7.9</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>io.janus</groupId>
+	<groupId>com.amadeus</groupId>
 	<artifactId>spring-boot-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springboot-path-to-ultimate</name>
